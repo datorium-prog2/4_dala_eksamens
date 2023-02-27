@@ -1,10 +1,6 @@
-// 2. uzdevums
-
-// Requiring fs module in which
-// readFile function is defined.
 const fs = require('fs')
  
-fs.readFile('teksts.txt', (err, data) => {
+fs.readFile('./data/teksts.txt', (err, data) => {
     if (err) { 
         throw err;
     }
